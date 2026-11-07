@@ -2,12 +2,6 @@
 
 A map-aware GATv2–GRU model that predicts six possible vehicle trajectories, using 2 seconds of motion history to forecast 6 seconds ahead on the [nuScenes dataset](https://www.nuscenes.org/nuscenes). It combines agent motion histories, one-hot category encodings, and nearby lane geometry. GATv2 models agent interactions, while a GRU predicts future trajectories step by step.
 
-<p align="center">
-  <img src="assets/right_turn.gif" width="960" alt="A nuScenes right-turn example showing nearby agent types, observed motion, ground truth and six GRU trajectory predictions">
-</p>
-
-*Right-turn prediction on nuScenes. Red highlights the mode closest to ground truth by ADE.*
-
 [Read the report](report/Trajectory_prediction_Report.pdf)
 
 ## What we found
